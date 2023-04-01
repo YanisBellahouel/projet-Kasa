@@ -1,18 +1,9 @@
-
-
+import Banner from './Banner'
+import ShoppingList from './ShoppingList'
+import ElementList from './elementList'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      
-        <p>
-          hello
-        </p>
-        
-      </header>
-    </div>
-  );
+    return <div><Banner /> <ElementList /> </div>
 }
 
-export default App;
+export default App
