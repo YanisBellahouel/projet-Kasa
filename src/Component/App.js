@@ -1,9 +1,8 @@
-import Banner from './Banner'
-import ShoppingList from './ShoppingList'
+import Header from './Header'
 import ElementList from './elementList'
 
 function App() {
-    return <div><Banner /> <ShoppingList /> <ElementList /> </div>
+    return <div><Header /> <ElementList /> </div>
 }
 
 export default App
