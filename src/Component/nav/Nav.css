@@ -8,9 +8,9 @@ bottom: 25%;
 
 .Acceuil {
 	position: relative;
-left: 55.08%;
-right: 13.95%;
-bottom: 8px;
+left: 32%;
+right: 0px;
+bottom: 20px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -22,16 +22,16 @@ line-height: 142.6%;
 display: flex;
 align-items: flex-end;
 text-align: right;
-text-decoration-line: underline;
+
 
 color: #FF6060;
 }
 
 .About {
 	position: relative;
-left: 92.65%;
+left: 75%;
 right: 0%;
-bottom: 67px;
+bottom: 78px;
 
 
 font-family: 'Montserrat';

@@ -1,4 +1,4 @@
-const element =[
+const Element =[
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -618,4 +618,4 @@ const element =[
 	}
 ]
 
-export default element;
+export default Element;

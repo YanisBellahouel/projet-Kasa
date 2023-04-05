@@ -1,8 +1,8 @@
-import element from "./Element";
+import Element from "./Element";
 
 function ElementList (){
     return (
-        console.log(element)
+        console.log(Element)
         // <ul>
         //     {element.map((logement) => (
         //         <li key={element.id}>{ logement }</li>

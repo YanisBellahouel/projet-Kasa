@@ -1,0 +1,13 @@
+.kasa-card{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-img{
+    width: 350px;
+    height: 220px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
