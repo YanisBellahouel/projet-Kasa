@@ -1,4 +1,4 @@
-import '../styles/Nav.css'
+import '../nav/Nav.css'
 
 function Nav() {
     const About = 'A Propos'

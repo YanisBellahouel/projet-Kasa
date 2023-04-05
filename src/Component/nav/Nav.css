@@ -7,11 +7,10 @@ bottom: 25%;
 }
 
 .Acceuil {
-	position: absolute;
-left: 75.08%;
+	position: relative;
+left: 55.08%;
 right: 13.95%;
-top: 25%;
-bottom: 25%;
+bottom: 8px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -29,11 +28,11 @@ color: #FF6060;
 }
 
 .About {
-	position: absolute;
-left: 90.65%;
+	position: relative;
+left: 92.65%;
 right: 0%;
-top: 25%;
-bottom: 25%;
+bottom: 67px;
+
 
 font-family: 'Montserrat';
 font-style: normal;
