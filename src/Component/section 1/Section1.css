@@ -1,18 +1,14 @@
  .kasa-section1{
-    position: absolute;
-    width: 1240px;
-    height: 223px;
-    left: 0%;
-    
-    
+    height: 223px; 
+    width: 100%;
  }
 
 .section1-text {
     position: relative;
-   margin-top: 78px;
-   margin-left: 335px;
     
+text-align: center;
 
+right: 0px;
 
     z-index: 4;
     
@@ -31,9 +27,11 @@
 
 .section1-group{
     position: relative;
-width: 1240px;
-height: 223px;
-top: -194px;
+    width: 1240px;
+    bottom: 200px;
+    margin-right: 100px;
+    height: 223px;
+
 
 
 
@@ -42,37 +40,36 @@ top: -194px;
 
 .section1-background1{
     position: relative;
-width: 1240px;
-height: 223px;
 
 background: #000000;
 mix-blend-mode: darken;
 opacity: 0.3;
 border-radius: 25px;
 
+width: 1240px;
+height: 223px;
 z-index: 3;
-
 
 }
 
 .section1-background2{
-    position: relative;
-width: 1240px;
+position: relative;
 height: 223px;
-top: -450px;
 
 background: #F7F7F7;
 border-radius: 25px;
+bottom: 450px;
 
 z-index: 1;
 
 }
 .section1-img {
-position: relative;
-width: 1240px;
-height: 223px;
-    top: -223px;
+    position: relative;
 
+    bottom: 223px;
+
+    width: 1240;
+    margin-right: 100px;
     border-radius: 25px;
  
     z-index: 2;

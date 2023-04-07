@@ -1,12 +1,15 @@
 .kasa-gallery{
     position: relative;
 width: 1240px;
-height: 829px;
-left: 90px;
-top: 429px;
+
+left: 375px;
+top: 329px;
+margin-bottom: 50px;
 
 background: #F7F7F7;
 border-radius: 25px;
+
+
 
 
 }

@@ -5,8 +5,11 @@ function Nav() {
     const Acceuil = 'Acceuil'
     return (
         <nav className='kasa-nav'>
-            <p className='Acceuil'>{Acceuil}</p>
-            <p className='About'>{About}</p>
+            <ul className='nav-list'>
+                <li className='Acceuil'>{Acceuil}</li>
+                <li className='About'>{About}</li>
+            </ul>
+           
             </nav>
     )
 }
