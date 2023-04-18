@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../nav/Nav.css'
 
 function Nav() {
@@ -6,8 +7,8 @@ function Nav() {
     return (
         <nav className='kasa-nav'>
             <ul className='nav-list'>
-                <li className='Acceuil'>{Acceuil}</li>
-                <li className='About'>{About}</li>
+               <Link to={'/'}  > <li className='Acceuil'>{Acceuil}</li></Link>
+                <Link to={'/About'} ><li className='About'>{About}</li></Link>
             </ul>
            
             </nav>
