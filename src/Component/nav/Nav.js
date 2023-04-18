@@ -7,8 +7,8 @@ function Nav() {
     return (
         <nav className='kasa-nav'>
             <ul className='nav-list'>
-               <Link to={'/'}  > <li className='Acceuil'>{Acceuil}</li></Link>
-                <Link to={'/About'} ><li className='About'>{About}</li></Link>
+               <Link to={'/'} className='Acceuil' > <li >{Acceuil}</li></Link>
+                <Link to={'/About'} className='About'><li >{About}</li></Link>
             </ul>
            
             </nav>
