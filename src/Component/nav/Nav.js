@@ -11,7 +11,7 @@ function Nav() {
                 <Link to={'/About'} className='About'><li >{About}</li></Link>
             </ul>
            
-            </nav>
+        </nav>
     )
 }
 
