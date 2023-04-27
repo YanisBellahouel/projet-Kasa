@@ -1,5 +1,6 @@
 import './Card.css'
 import Element from '../Element'
+import { Link } from 'react-router-dom'
 // import ElementList from '../elementList'
 
 function Card () {
@@ -7,12 +8,13 @@ function Card () {
     return (
         <div className='kasa-card'>
             {Element.map((logement, id) => (
-                <div key={logement.id}>
-                <img   src={logement.cover}
-                alt='logement' className='card-img'/> 
-                <p  className='card-title'> {logement.title}  </p>
-                </div> 
-        
+                <Link className='card-link' key={logement.id} to={'/logement/' + logement.id}>
+                    <div >
+                        <img src={logement.cover}
+                        alt='logement' className='card-img'/> 
+                        <p  className='card-title'> {logement.title}  </p>
+                    </div> 
+                </Link>
             ))}
         </div>
     )

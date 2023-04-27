@@ -1,12 +1,13 @@
-import Body from "../Component/body/Body";
+import Header from "../Component/header/Header";
+import Title from "../Component/title&rate/Title";
 
-
-function Logement () {
-    return (
-        <div>
-            <Body/>
-        </div>
-    )
+function Logement() {
+  return (
+    <div>
+      <Header />
+      <Title />
+    </div>
+  );
 }
 
-export default Logement
+export default Logement;

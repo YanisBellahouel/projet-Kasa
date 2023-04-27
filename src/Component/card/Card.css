@@ -2,7 +2,7 @@
 .kasa-card{
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 
 .card-img{
@@ -35,4 +35,8 @@
     flex-wrap: wrap;
     
     color: #ffffff;
+}
+
+.card-link{
+    text-decoration: none;
 }

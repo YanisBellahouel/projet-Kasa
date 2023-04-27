@@ -9,7 +9,6 @@ function NoPage () {
          <div> 
             <Header /> 
             <Error />
-           
          </div>
          
     )
