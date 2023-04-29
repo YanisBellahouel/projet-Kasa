@@ -9,7 +9,7 @@ function Title () {
     const id_logement = useParams();
     
     let logement = Element.find(Element => Element.id === id_logement.id);
-    console.log(logement)
+   
     
     
 
