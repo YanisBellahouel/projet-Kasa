@@ -1,0 +1,41 @@
+.kasa-carousel{
+    display: flex;
+
+    width: 1240px;
+    height: 500px;
+    background-color: brown;
+
+    margin-top: 25px;
+    margin-left: 360px;
+
+    justify-content: center;
+}
+
+.carousel-img{
+   max-width: 1240px;
+   min-width: 1240px;
+    height: 500px;
+    z-index: 0;
+}
+
+.carousel-arrow-left{
+    position: relative;
+    width: 50px;
+    height: 100px;
+    z-index: 1;
+    
+
+    left: 80px;
+    top: 190px;
+
+}
+
+.carousel-arrow-right{
+    position: relative;
+    width: 50px;
+    height: 100px;
+    z-index: 1;
+    
+    right: 80px;
+    top: 190px;
+}
