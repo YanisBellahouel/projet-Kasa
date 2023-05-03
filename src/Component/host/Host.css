@@ -1,0 +1,27 @@
+.kasa-host{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.host-img{
+    position: relative;
+    border-radius: 100px;
+    height: 100px;
+    right: 320px;
+    bottom: 100px;
+}
+
+.host-name{
+    position: relative;
+    font-family: 'Montserrat';
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+
+    right: 320px;
+    bottom: 80px;
+    
+}

@@ -1,0 +1,69 @@
+.main-collapse2 {
+    width: 550px;
+      margin-bottom: 80px;
+    margin-left: 360px;
+  
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  
+  
+  .button-collapse2 {
+    position: absolute;
+    background: #ff6060;
+    border-radius: 5px;
+  
+    width: 550px;
+    height: 47px;
+  
+    display: flex;
+    justify-content: space-between;
+  
+    border-style: none;
+  }
+  
+  
+  .text-collapse2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 24px;
+    margin: 5px;
+  
+    color: #ffffff;
+  }
+  
+  .arrow-collapse2 {
+    margin-top: 7px;
+    margin-right: 15px;
+  }
+  
+  .sous-collapse2 {
+    background-color: #F7F7F7;;
+    margin-top: 40px;
+    border-radius: 5px;
+    min-width: 550px;
+  
+      
+  
+  }
+  
+  .desc-collapse2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: montserrat;
+  }
+  
+  
+  .Slide {
+      transition: opacity 0.3s ;
+     
+  }
+  
+  .Slide.out {
+      opacity: 0;
+  }

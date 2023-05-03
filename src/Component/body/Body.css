@@ -1,5 +1,5 @@
 .kasa-body {
-position: absolute;
+display: flex;
     
 left: 380px;
 width: 1240px;
