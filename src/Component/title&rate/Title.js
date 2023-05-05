@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Element from '../Element'
 
 
+
 function Title () {
     
 
@@ -15,12 +16,14 @@ function Title () {
 
     
     return (
-        <div className='kasa-titleRate'>       
+        <div className='kasa-title'>       
                 <div className='titles'>
                     <h1 className='title'>{logement.title}</h1>
                     <h2 className='localisation'>{logement.location}</h2>
                 </div>
+                
         </div>
+        
     )
 
 }

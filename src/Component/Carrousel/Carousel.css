@@ -3,7 +3,7 @@
 
     width: 1240px;
     height: 500px;
-    background-color: brown;
+    background-color: rgb(253, 253, 253);
 
     margin-top: 25px;
     margin-left: 360px;
@@ -15,6 +15,7 @@
    max-width: 1240px;
    min-width: 1240px;
     height: 500px;
+    border-radius: 25px;
     z-index: 0;
 }
 

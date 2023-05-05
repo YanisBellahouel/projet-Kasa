@@ -22,10 +22,11 @@ function Tags () {
 
     return (
         <div className="kasa-tags">
-            {tags.map((tag) => (
-                <div className="tags" key={tag} >
-                    {tags}
-                </div>
+                 {tags.map((Element) => (
+                    <div className="tag" key={Element}>
+                        <p className="tag-p"> {Element}  </p>
+                    </div> 
+                
             ))}
         </div>
     )

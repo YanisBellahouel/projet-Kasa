@@ -9,7 +9,8 @@ function Collapse3 () {
     const id_logement = useParams();
     let logement = Element.find(Element => Element.id === id_logement.id);
 
-    
+    const equipments = logement.equipments
+
     const [open , setOpen] = useState(false)
 
     const toggle = () => setOpen (o => !o)
@@ -27,17 +28,25 @@ function Collapse3 () {
                          <img src={arrow1} className="arrow-collapse3" alt="fleche"></img>
                      </button>
 
-                     <Slide2 visible={open}  >
-                        <div className="sous-collapse3">
-                            <p className="desc-collapse3">
+                    <Slide2 visible={open}  >
+                        <div>
+                        {equipments.map((Element) => (
+                             
+                        <div className="tag" key={Element}>
+                            <p className="tag-p"> {Element}</p>
                                 {logement.equipments}
-                            </p>
+                        </div>
+                        ))}
                         </div>
                     </Slide2>
                 </div>              
             </div>
           
+          
+            
 
+        
+    
       
     )
 }
