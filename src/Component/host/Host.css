@@ -1,17 +1,11 @@
 .kasa-host{
-    display: flex;
-    
-   
+    display: flex; 
 }
-
-
 
 .host-img{
     
     border-radius: 100px;
     height: 80px;
-    
-   
 }
 
 .host-name{
