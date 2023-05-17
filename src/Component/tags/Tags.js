@@ -11,10 +11,10 @@ function Tags () {
     let logement = Element.find(Element => Element.id === id_logement.id);
 
     const length = logement.tags.length
-    console.log(length);
+   
 
     const tags = logement.tags
-    console.log(tags);
+    
 
     
 
@@ -24,7 +24,7 @@ function Tags () {
         <div className="kasa-tags">
                  {tags.map((Element) => (
                     <div className="tag" key={Element}>
-                        <p className="tag-p"> {Element}  </p>
+                        <p className="tag-p"> {Element}</p>                     
                     </div> 
                 
             ))}

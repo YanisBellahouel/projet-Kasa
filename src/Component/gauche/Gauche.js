@@ -1,6 +1,7 @@
 import './Gauche.css'
 import Title from "../title&rate/Title";
 import Tags from "../tags/Tags";
+import Star from '../star/Star';
 
 function Gauche () {
 
@@ -8,6 +9,7 @@ function Gauche () {
         <div className="kasa-gauche">
             <Title/>
             <Tags/>
+            
         </div>
     )
 }

@@ -4,6 +4,7 @@ import Collapse from "../Component/collapse/Collapse";
 import Footer from "../Component/footer/Footer";
 import AboutCollapse from "../Component/AboutCollapse";
 
+
 function About () {
     return (
         
@@ -11,7 +12,7 @@ function About () {
             <Header/>
             <Body2 />
             {AboutCollapse.map((about, id) =>
-            <Collapse 
+            <Collapse
             key={id}
             AboutTitle={about.AboutTitle}
             AboutText={about.AboutText}
