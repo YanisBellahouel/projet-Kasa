@@ -1,10 +1,10 @@
 .kasa-footer{
   display: flex;
-   left: 280px;
   height: 209px;
-  width: 1440px;
+  max-width: 1440px;
   margin-bottom: -10px;
-  margin-left: 280px;
+  margin-left: 15%;
+  margin-right: 20px;
   margin-top: 150px;
 
 background: #000000;
@@ -15,7 +15,7 @@ background: #000000;
     flex-direction: column;
    justify-content: center;
     align-items: center;
-    padding-left: 530px;
+    padding-left: 38%;
     height: 209px;
 }
 
@@ -36,4 +36,44 @@ background: #000000;
     
   
     color: #FFFFFF;
+}
+
+@media all and (min-width: 900px) and (max-width: 1024px) {
+    .kasa-footer{
+        display: flex;
+        height: 209px;
+        width: 1024px;
+        margin-bottom: -10px;
+        margin-left: -10px;
+        margin-top: 80px;
+      
+      background: #000000;
+      }
+      
+      .footer-thing{
+          display: flex;
+          flex-direction: column;
+         
+          padding-left: 330px;
+          height: 209px;
+      }
+      
+      .footer-logo{
+          margin-top: 25px;
+          margin-bottom: 30px;
+         
+      }
+      
+      .footer-text{
+         
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+         
+          
+          
+        
+          color: #FFFFFF;
+      }
 }

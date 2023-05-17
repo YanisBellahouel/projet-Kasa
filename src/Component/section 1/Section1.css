@@ -4,79 +4,100 @@
  .kasa-section1{
     display: flex;
     height: 223px; 
-    width: 100%;
+    max-width: 1240px;
+    margin-left: 20%;
     margin-top: 50px;
  }
 
+ 
+
+.section1-img {
+    position: relative;
+    border-radius: 25px;
+    bottom: 223px;
+    z-index: 1;
+   
+
+}
+.section1-background1{
+    position: relative;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+    
+    
+    height: 223px;
+    z-index: 2;
+
+}
 .section1-text {
     position: relative;
-    bottom: 640px;
+    bottom: 365px;
+    margin: 0;
     text-align: center;
-
-    
-
-    z-index: 4;
-    
+    z-index: 3;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 48px;
-
-    /* or 68px */
-    
-   
-    
     color: #ffffff;
     
 }
 
-.section1-group{
+
+
+
+
+
+
+@media all and (min-width: 900px) and (max-width: 1024px) {
+    .kasa-section1{
+        display: flex;
+        height: 223px; 
+        width: 900px;
+        margin-left: 50px;
+        margin-top: 50px;
+     }
+
+     .section1-group{
+        width: 900px;
+        
+     }
     
-    width: 1240px;
-    margin-left: 380px;
-    height: 223px;
+    .section1-img {
+        position: relative;
+        border-radius: 25px;
+        bottom: 223px;
+        width: 900px;
+        height: 223px;
 
-
-
-
-
-}
-
-.section1-background1{
-    position: relative;
-
-background: #000000;
-mix-blend-mode: darken;
-opacity: 0.3;
-border-radius: 25px;
-
-width: 1240px;
-height: 223px;
-z-index: 3;
-
-}
-
-.section1-background2{
-position: relative;
-height: 223px;
-
-background: #F7F7F7;
-border-radius: 25px;
-bottom: 450px;
-
-z-index: 1;
-
-}
-.section1-img {
-    position: relative;
-
-    bottom: 223px;
-
-    width: 1240;
-    margin-right: 100px;
-    border-radius: 25px;
- 
-    z-index: 2;
-   
-
+        z-index: 1;
+       
+    
+    }
+    .section1-background1{
+        position: relative;
+        background: #000000;
+        mix-blend-mode: darken;
+        opacity: 0.3;
+        border-radius: 25px;
+    
+        height: 223px;
+        z-index: 2;
+    
+    }
+    .section1-text {
+        position: relative;
+        bottom: 365px;
+        margin: 0;
+        text-align: center;
+        z-index: 3;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        color: #ffffff;
+        
+    }
 }

@@ -10,7 +10,6 @@ function Section1 () {
                 
                 <div className='section1-background1'></div>
                 <img src={rocher} alt='rocher' className='section1-img' />
-                <div className='section1-background2'></div>
                 <p className='section1-text'>{text}</p>
             </div>
             

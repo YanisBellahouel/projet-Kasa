@@ -40,3 +40,48 @@
 .card-link{
     text-decoration: none;
 }
+
+@media all and (min-width: 900px) and (max-width: 1024px) {
+
+    .kasa-card{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .card-img{
+        width: 350px;
+        height: 220px;
+        margin-left: 65px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    
+    .card-title{
+        position: relative;
+        max-width: 300px;
+    
+        bottom: 80px;
+        left: 75px;
+    
+        
+       
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 142.6%;
+        /* or 26px */
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        color: #ffffff;
+    }
+    
+    .card-link{
+        text-decoration: none;
+    }
+}
