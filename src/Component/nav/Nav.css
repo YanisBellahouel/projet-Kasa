@@ -53,3 +53,60 @@ color: #FF6060;
 	text-decoration-line: underline;
 
 }
+
+@media all and (max-width: 889px) {
+	.nav-list{
+		display: flex;
+		list-style: none;
+		
+	}
+	
+	.Acceuil {
+	
+		margin-right: 20px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 142.6%;
+	/* or 34px */
+	
+	text-decoration: none;
+	
+	color: #FF6060;
+	}
+	
+	.About {
+		margin-right: 20px;
+	
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 142.6%;
+	/* or 34px */
+	
+	
+	text-decoration: none;
+	
+	
+	
+	color: #FF6060;
+	}
+	
+	
+	.About :hover {
+	
+		text-decoration-line: underline;
+	
+	}
+	
+	.Acceuil :hover {
+	
+		text-decoration-line: underline;
+	
+	}
+
+}

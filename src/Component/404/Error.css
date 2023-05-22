@@ -1,54 +1,106 @@
 .kasa-error {
-width: 1240px;
-margin-left: 652px;
-margin-top: 150px;
-
-
-
-
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-
 
 .error-logo {
 width: 597px;
 height: 263px;
+margin-top: 170px;
+margin-bottom: 50px;
 }
 
 .error-message{
-position: relative;
-right: 120px;
-top: 50px;
-
-
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 142.6%;
-/* or 51px */
-
-display: flex;
-align-items: flex-end;
-
 color: #FF6060;
+margin-bottom: 180px;
+text-align: center;
 }
 
 .error-lien{
-
-position: relative;
-left: 150px;
-top: 250px;
-
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 142.6%;
-/* identical to box height, or 26px */
-
-display: flex;
-align-items: flex-end;
 text-decoration-line: underline;
-
 color: #FF6060;
+}
+
+@media all and (min-width: 900px) and (max-width: 1024px) {
+    .kasa-error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .error-logo {
+        width: 597px;
+        height: 263px;
+        margin-top: 170px;
+        margin-bottom: 50px;
+        }
+        
+        .error-message{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 142.6%;
+        color: #FF6060;
+        margin-bottom: 180px;
+       text-align: center;
+        }
+        
+        .error-lien{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+        text-decoration-line: underline;
+        color: #FF6060;
+        }
+}
+
+@media all and (max-width: 899px) {
+    .kasa-error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .error-logo {
+        width: 200px;
+        height: 100px;
+        margin-top: 170px;
+        margin-bottom: 50px;
+        }
+        
+        .error-message{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 142.6%;
+        color: #FF6060;
+        margin-bottom: 180px;
+        
+        text-align: center;
+        }
+        
+        .error-lien{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+        text-decoration-line: underline;
+        color: #FF6060;
+        }
 }

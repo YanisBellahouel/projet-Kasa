@@ -16,17 +16,23 @@ function Carousel () {
     const length = logement.pictures.length
   
     const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
+        setCurrent(current === length - 1 ? 0 : current + 1 );
       };
     
       const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
+        setCurrent(current === 0 ? length - 1 : current - 1 );
       };
+
+      
 
     return(
         <div className="kasa-carousel">
             <img src={ArrowLeft} className="carousel-arrow-left" alt="fleche" onClick={prevSlide}></img>
-            <img src={logement.pictures[current]} alt="logement" className="carousel-img"></img>
+            <div className="img_count">
+              <img src={logement.pictures[current]} alt="logement" className="carousel-img"></img>
+              <p className="count">{[current +1]}/{[length]}</p>
+            </div>
+           
             <img src={ArrowRight} className="carousel-arrow-right" alt="fleche" onClick={nextSlide}></img>
         </div>
     )

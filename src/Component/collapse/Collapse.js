@@ -7,24 +7,24 @@ function Collapse (props) {
     const [open , setOpen] = useState(false)
 
     const toggle = () => setOpen (o => !o)
+
+    
     return (
         
             <div className="main-collapse">  
-                <div className="second-collapse">
+                
                     <button onClick={toggle} className="button-collapse">
-                         <p className="text-collapse">{props.AboutTitle} </p>
+                         <p className="text-collapse">{props.Title} </p>
                          <img src={arrow1} className="arrow-collapse" alt="fleche"></img>
                      </button>
 
                      <Slide visible={open}  >
                         <div className="sous-collapse">
                             <p className="desc-collapse">
-                                {props.AboutText}
+                                {props.Text}
                             </p>
                         </div>
-                    </Slide>
-                </div>
-                
+                    </Slide>              
             </div>
           
 

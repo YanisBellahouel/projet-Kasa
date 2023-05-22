@@ -22,3 +22,16 @@
     }
 
 }
+
+@media all and (max-width: 899px) {
+    .kasa-gallery{
+        display: flex;
+        min-width: 360px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        background: #ffffff;
+        border-radius: 25px;
+    }
+
+}

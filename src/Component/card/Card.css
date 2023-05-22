@@ -85,3 +85,48 @@
         text-decoration: none;
     }
 }
+
+@media all and (max-width: 899px) {
+    .kasa-card{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .card-img{
+        max-width: 350px;
+        height: 220px;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+        border-radius: 10px;
+    }
+    
+    .card-title{
+        position: relative;
+        max-width: 300px;
+    
+        bottom: 80px;
+        left: 20px;
+    
+        
+       
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 142.6%;
+        /* or 26px */
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        color: #ffffff;
+    }
+    
+    .card-link{
+        text-decoration: none;
+    }
+}
+

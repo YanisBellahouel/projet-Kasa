@@ -9,6 +9,8 @@
   justify-content: space-between;
 }
 
+
+
 .button-collapse {
   position: absolute;
   background: #ff6060;
@@ -29,6 +31,7 @@
   font-style: normal;
   font-size: 24px;
   margin: 5px;
+  
 
   color: #ffffff;
 }
@@ -42,17 +45,23 @@
   background-color: #F7F7F7;;
   margin-top: 40px;
   border-radius: 5px;
-
-    
+  min-width: 550px;
+     display: flex;
+ 
 
 }
 
 .desc-collapse {
-  padding-top: 30px;
-  padding-bottom: 10px;
   padding-left: 10px;
   font-size: 24px;
   font-family: montserrat;
+  
+  
+}
+
+.item{
+
+  margin: 10px;
 }
 
 

@@ -34,3 +34,22 @@
 		
 	}
 }
+
+@media all and (max-width: 899px) {
+	.kasa-header {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		
+		
+		max-width: 800px;
+		min-width: 375px;
+		margin-left: 0px;
+	}
+
+	.kasa-logo {
+		width: 145px;
+		
+	}
+
+}
