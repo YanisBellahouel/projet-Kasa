@@ -1,10 +1,10 @@
 import Carrousel from "../Component/Carrousel/Carousel";
 import Header from "../Component/header/Header";
 import Footer from "../Component/footer/Footer"
-import G_D from "../Component/g&d/G&D";
 import Collapse from "../Component/collapse/Collapse";
 import Element from "../Component/Element";
 import { useParams } from "react-router-dom";
+import InfoLogements from "../Component/infoLogements/InfoLogements";
 
 
 function Logement() {
@@ -19,8 +19,9 @@ function Logement() {
     <div>
       <Header />
       <Carrousel/>
-      <G_D/> 
-      <Collapse
+      <InfoLogements/> 
+      <div id="collapse_logement">
+         <Collapse
         Title={"Equipements"}
           Text={equipements.map((Element) => (
             <div className="items"key={Element}>
@@ -33,7 +34,9 @@ function Logement() {
       <Collapse
         Title={"Description"}
         Text={ description}
-      />            
+      />   
+      </div>
+              
       <Footer/>
     </div>
   );

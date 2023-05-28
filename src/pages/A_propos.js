@@ -11,13 +11,16 @@ function About () {
         <div>
             <Header/>
             <Section2/>
-            {AboutCollapse.map((about, id) =>
+            <div id="collapse_about">
+                 {AboutCollapse.map((about, id) =>
             <Collapse
             key={id}
             Title={about.AboutTitle}
             Text={about.AboutText}
             />          
             )}
+            </div>
+           
             <Footer/>
         </div>
     )

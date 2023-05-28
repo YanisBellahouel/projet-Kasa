@@ -5,8 +5,9 @@
     display: flex;
     max-width: 1240px;
     height: 223px;
-    margin-left: 20%;
-   margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
  }
 
  .section1-background1{
@@ -46,10 +47,6 @@
     color: #ffffff;
     
 }
-
-
-
-
 
 
 

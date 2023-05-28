@@ -6,7 +6,8 @@
     background-color: rgb(253, 253, 253);
 
     margin-top: 25px;
-    margin-left: 16.5%;
+    margin-left: auto;
+    margin-right: auto;
 
     justify-content: center;
 }

@@ -1,75 +1,90 @@
-.main-collapse {
-  width: 1023px;
-    margin-bottom: 80px;
-  margin-left: 480px;
-
+#collapse_about {
   display: flex;
-
   flex-direction: column;
-  justify-content: space-between;
+  max-width: 1024px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+  
 }
 
-
-
-.button-collapse {
-  position: absolute;
+#collapse_about .main-collapse{
+  width: 100%;
+  
+}
+  
+ #collapse_about .button-collapse {
   background: #ff6060;
   border-radius: 5px;
-
-  width: 1023px;
+  width: 100%;
   height: 47px;
-
   display: flex;
   justify-content: space-between;
-
   border-style: none;
+  cursor: pointer;
 }
-
 
 .text-collapse {
   font-family: "Montserrat";
   font-style: normal;
   font-size: 24px;
   margin: 5px;
-  
-
   color: #ffffff;
 }
 
-.arrow-collapse {
+ .arrow-collapse {
   margin-top: 7px;
   margin-right: 15px;
 }
 
-.sous-collapse {
+ .sous-collapse {
   background-color: #F7F7F7;;
-  margin-top: 40px;
   border-radius: 5px;
   min-width: 550px;
-     display: flex;
- 
-
+  display: flex;
 }
 
-.desc-collapse {
+ .desc-collapse {
   padding-left: 10px;
   font-size: 24px;
   font-family: montserrat;
-  
-  
 }
 
 .item{
-
   margin: 10px;
 }
 
-
-.Slide {
-    transition: opacity 0.3s ;
-   
+ .Slide {
+  transition: opacity 0.3s ;
 }
 
 .Slide.out {
-    opacity: 0;
+  opacity: 0;
 }
+
+#collapse_logement {
+  display: flex;
+  justify-content: center;
+  max-width: 1240px;
+  gap: 76px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#collapse_logement .main-collapse{
+  width: 100%;
+ 
+}
+
+#collapse_logement .button-collapse{
+  background: #ff6060;
+  border-radius: 5px;
+  width: 100%;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  border-style: none;
+  cursor: pointer;
+}
+

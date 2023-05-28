@@ -1,5 +1,6 @@
 .kasa-host{
-    display: flex; 
+    display: flex;
+    margin-top: 30px;
 }
 
 .host-img{
