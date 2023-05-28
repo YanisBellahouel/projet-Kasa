@@ -37,7 +37,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 142.6%;
-    /* or 26px */
+    
     
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +50,5 @@
     height: 340px;
 }
 
-/* @media all and (min-width: 900px) and (max-width: 1024px) {
 
-} */
 

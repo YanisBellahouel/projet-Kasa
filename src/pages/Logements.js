@@ -15,26 +15,29 @@ function Logement() {
 
     const equipements = logement.equipments
     const description = logement.description
+
+
+    
   return (
     <div>
       <Header />
       <Carrousel/>
       <InfoLogements/> 
-      <div id="collapse_logement">
-         <Collapse
-        Title={"Equipements"}
-          Text={equipements.map((Element) => (
-            <div className="items"key={Element}>
-            <p className="item" >
-              {Element}           
-            </p>
-            </div>
-        ))}
-      /> 
-      <Collapse
-        Title={"Description"}
-        Text={ description}
-      />   
+      <div id="collapse_logement"> 
+        <Collapse
+          Title={"Description"}
+          Text={ description}
+        />   
+        
+        <Collapse
+          Title={"Equipements"}
+             Text={equipements.map((Element) => (
+              <p className="items"key={Element}>
+                {Element}        
+              </p>
+            ))}
+        /> 
+
       </div>
               
       <Footer/>

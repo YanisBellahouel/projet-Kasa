@@ -25,6 +25,7 @@
     width: 50px;
     height: 100px;
     z-index: 1;
+    cursor: pointer;
     
 
     left: 80px;
@@ -37,6 +38,7 @@
     width: 50px;
     height: 100px;
     z-index: 1;
+    cursor: pointer;
     
     right: 80px;
     top: 190px;

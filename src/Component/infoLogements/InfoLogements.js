@@ -7,12 +7,12 @@ import './InfoLogements.css'
 function InfoLogements () {
     return(
         <div className='infoLogements'>
-            <div className='title_host'>
+            <div className='title_tags'>
                 <Title/>
-                <Host/>
-            </div>
-            <div className='tag_star'>
                 <Tags/>
+            </div>
+            <div className='host_star'>
+                <Host/>
                 <Star/>
             </div>
         </div>

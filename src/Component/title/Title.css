@@ -22,3 +22,12 @@
     margin-top: 5px;
     font-size: 18px;
 }
+
+@media all and (max-width: 889px) {
+    .kasa-title{
+        display: flex;
+        margin-bottom: 0px;
+    }
+    
+
+}

@@ -20,9 +20,9 @@ function Collapse (props) {
 
                      <Slide visible={open}  >
                         <div className="sous-collapse">
-                            <p className="desc-collapse">
+                            <ul className="desc-collapse">
                                 {props.Text}
-                            </p>
+                            </ul>
                         </div>
                     </Slide>              
             </div>
