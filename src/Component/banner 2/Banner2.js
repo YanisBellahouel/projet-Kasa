@@ -1,7 +1,7 @@
-import './section2.css'
+import './Banner2.css'
 import banner from '../../assets/banner.png'
 
-function Section2 () {
+function Banner2 () {
 
     return (
         <div className='kasa-section2'>
@@ -14,4 +14,4 @@ function Section2 () {
 
 }
 
-export default Section2
+export default Banner2

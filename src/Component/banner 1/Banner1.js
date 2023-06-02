@@ -1,7 +1,7 @@
-import './Section1.css'
+import './Banner1.css'
 import rocher from '../../assets/rocher.png'
 
-function Section1 () {
+function Banner1 () {
     const text = 'Chez vous, partout et ailleurs'
     return (
         <div className='kasa-section1'>    
@@ -15,4 +15,4 @@ function Section1 () {
 
 }
 
-export default Section1
+export default Banner1
