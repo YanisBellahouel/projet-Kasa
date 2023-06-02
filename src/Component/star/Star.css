@@ -1,5 +1,5 @@
 .kasa-star {
-    max-width: 100px;
+    max-width: 200px;
 }
 .ul{
     width: 50px;
@@ -10,8 +10,9 @@
 @media all and (max-width: 889px) {
 
     .kasa-star {
-        max-width: 100px;
+        max-width: 200px;
         margin-top: 35px;
+        margin-left: 0px;
     }
 
 }

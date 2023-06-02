@@ -1,26 +1,33 @@
 import "./Star.css"
 import star from "../../assets/star.png"
-import { useParams } from "react-router-dom";
-import Element from "../Element";
+import starEmpty from "../../assets/empty_star.png"
 
-function Star () {
-    const id_logement = useParams();
+function Star ({rating}) {
+
+
+    const etoile = [];
+// creation de 2 class 1 etoile plein et 1 etoile vide 
+
+
+    for (let i = 1; i <= 5; i++) {
+        const etoileImg = i <= rating ? star: starEmpty;
+        etoile.push(<img src={etoileImg} alt='étoile'  className='star' />)
+    }
+
     
-    let logement = Element.find(Element => Element.id === id_logement.id);
-
-    const rate = logement.rating
-    console.log(rate);
-
     
-
-
     return (
-        <div className="kasa-star">
-           <ul>
-           <img src={star} alt='étoile' className='star' />
-            </ul> 
+         <div className='kasa-star'>
+           <ul>       
+            {etoile}
+           </ul>
         </div>
     )
+
+            
+            
+               
+    
 }
 
 export default Star
