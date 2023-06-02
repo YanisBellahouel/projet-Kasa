@@ -11,15 +11,15 @@ function Star ({rating}) {
 
     for (let i = 1; i <= 5; i++) {
         const etoileImg = i <= rating ? star: starEmpty;
-        etoile.push(<img src={etoileImg} alt='étoile'  className='star' />)
+        etoile.push(<img src={etoileImg} alt='étoile' key={etoile} className='star' />)
     }
 
     
     
     return (
-         <div className='kasa-star'>
+         <div className='kasa-star' >
            <ul>       
-            {etoile}
+            <div >{etoile}</div>  
            </ul>
         </div>
     )
