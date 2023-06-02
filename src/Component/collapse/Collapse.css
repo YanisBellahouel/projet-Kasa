@@ -33,7 +33,12 @@
   color: #ffffff;
 }
 
- .arrow-collapse {
+ .arrowUp {
+  margin-top: 12px;
+  margin-right: 15px;
+}
+
+.arrowDown {
   margin-top: 7px;
   margin-right: 15px;
 }
