@@ -43,10 +43,11 @@
 		flex-wrap: nowrap;
 		flex-direction: row;
 		
-		
+		overflow-x: hidden;
 		max-width: 800px;
 		min-width: 375px;
-		margin-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.kasa-logo {

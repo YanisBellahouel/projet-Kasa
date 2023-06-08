@@ -55,6 +55,13 @@ color: #FF6060;
 }
 
 @media all and (max-width: 889px) {
+
+	.kasa-nav{
+		display: flex;
+		margin-left: 0px;
+		
+	}
+
 	.nav-list{
 		display: flex;
 		list-style: none;
@@ -78,9 +85,7 @@ color: #FF6060;
 	}
 	
 	.About {
-		margin-right: 20px;
-	
-	
+	margin-right: 20px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
