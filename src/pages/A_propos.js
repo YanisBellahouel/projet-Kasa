@@ -2,7 +2,8 @@ import Header from "../Component/header/Header";
 import Collapse from "../Component/collapse/Collapse";
 import Footer from "../Component/footer/Footer";
 import AboutCollapse from "../Component/AboutCollapse";
-import Banner2 from "../Component/banner 2/Banner2";
+import Banner from "../Component/banner/Banner";
+import banner from "../assets/banner.png"
 
 
 function About () {
@@ -10,7 +11,10 @@ function About () {
         
         <div>
             <Header/>
-            <Banner2/>
+            <Banner classname="BannerAbout"
+            imgSource={banner}
+            altText="Un paysage sauvage de bord de mer"
+            />
             <div id="collapse_about">
                  {AboutCollapse.map((about, id) =>
             <Collapse

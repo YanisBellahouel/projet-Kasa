@@ -26,15 +26,25 @@ function Carousel () {
       
 
     return(
-        <div className="kasa-carousel">
-            <img src={ArrowLeft} className="carousel-arrow-left" alt="fleche" onClick={prevSlide}></img>
+      <div className="kasa-carousel">
+            {(length > 1 ) ? (
+                <>
+                <img src={ArrowLeft} className="carousel-arrow-left" alt="fleche" onClick={prevSlide}></img>
+                <div className="img_count">
+                  <img src={logement.pictures[current]} alt="logement" className="carousel-img"></img>
+                  <p className="count">{[current +1]}/{[length]}</p>
+                </div>
+                <img src={ArrowRight} className="carousel-arrow-right" alt="fleche" onClick={nextSlide}></img>
+                </>
+            ) : 
+            
             <div className="img_count">
-              <img src={logement.pictures[current]} alt="logement" className="carousel-img"></img>
-              <p className="count">{[current +1]}/{[length]}</p>
-            </div>
-           
-            <img src={ArrowRight} className="carousel-arrow-right" alt="fleche" onClick={nextSlide}></img>
+            <img src={logement.pictures[current]} alt="logement" className="carousel-img"></img>
+            <p className="count">{[current +1]}/{[length]}</p>
+          </div>}
+            
         </div>
+        
     )
 }
 
