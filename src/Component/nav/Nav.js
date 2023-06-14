@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import '../nav/Nav.css'
 
 function Nav() {
@@ -7,8 +7,10 @@ function Nav() {
     return (
         <nav className='kasa-nav'>
             <ul className='nav-list'>
-               <Link to={'/'} className='Acceuil' > <li >{Acceuil}</li></Link>
-                <Link to={'/About'} className='About'><li >{About}</li></Link>
+                <NavLink className="header-link" activeClassName="active-link" to={'/'}>
+                    <li>{Acceuil}</li></NavLink>
+                <NavLink className="header-link" activeClassName="active-link" to={'/About'}>
+                    <li>{About}</li></NavLink>
             </ul>
            
         </nav>

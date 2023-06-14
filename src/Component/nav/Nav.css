@@ -6,53 +6,25 @@
 	
 }
 
-.Acceuil {
-
-	margin-right: 40px;
-
+.header-link {
+margin-right: 40px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 142.6%;
-/* or 34px */
-
 text-decoration: none;
-
 color: #FF6060;
-}
-
-.About {
-	margin-right: 40px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 142.6%;
-/* or 34px */
-
-
-text-decoration: none;
-
-
-
-color: #FF6060;
-}
-
-
-.About :hover {
-
-	text-decoration-line: underline;
 
 }
 
-.Acceuil :hover {
-
-	text-decoration-line: underline;
-
+.header-link.active{
+	text-decoration: underline;
+	
 }
+  
+ 
+
 
 @media all and (max-width: 889px) {
 
@@ -68,7 +40,7 @@ color: #FF6060;
 		
 	}
 	
-	.Acceuil {
+	.header-link {
 	
 	margin-right: 20px;
 	
@@ -84,22 +56,10 @@ color: #FF6060;
 	color: #FF6060;
 	}
 	
-	.About {
-	margin-right: 20px;
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 142.6%;
-	/* or 34px */
-	
-	
-	text-decoration: none;
 	
 	
 	
-	color: #FF6060;
-	}
+	
 	
 	
 	.About :hover {
