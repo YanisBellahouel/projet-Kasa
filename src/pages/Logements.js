@@ -23,7 +23,7 @@ function Logement() {
       <Header />
       <Carrousel/>
       <InfoLogements/> 
-      <div id="collapse_logement"> 
+      <div className="logement-collapse"> 
         <Collapse
           Title={"Description"}
           Text={ description}

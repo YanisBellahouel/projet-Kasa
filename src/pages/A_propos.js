@@ -15,7 +15,7 @@ function About () {
             imgSource={banner}
             altText="Un paysage sauvage de bord de mer"
             />
-            <div id="collapse_about">
+            <div className="about-collapse">
                  {AboutCollapse.map((about, id) =>
             <Collapse
             key={id}
