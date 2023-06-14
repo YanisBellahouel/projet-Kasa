@@ -1,18 +1,26 @@
 .kasa-star {
+    display: flex;
     max-width: 200px;
 }
-.ul{
-    width: 50px;
-    height: 50px;
-    
+
+.ul-star{
+    padding-left: 0px;
 }
+
 
 @media all and (max-width: 889px) {
 
     .kasa-star {
+        display: flex;
         max-width: 200px;
         margin-top: 35px;
-        margin-left: 0px;
+        
     }
+
+    .ul-star{
+        padding-left: 0px;
+    }
+
+    
 
 }

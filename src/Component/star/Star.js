@@ -18,7 +18,7 @@ function Star ({rating}) {
     
     return (
          <div className='kasa-star' >
-           <ul>       
+           <ul className="ul-star">       
             <div >{etoile}</div>  
            </ul>
         </div>
