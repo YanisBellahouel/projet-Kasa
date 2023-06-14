@@ -15,7 +15,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='*' element={<NoPage />} />
                 <Route path='/About' element={<About />} />
-                <Route path='/Logement/:id' element={<Logement />} />
+                <Route path='/Logement/:id' element={<Logement/>}  />
             </Routes>
          </BrowserRouter>
     )
