@@ -14,11 +14,7 @@ function Tags () {
    
 
     const tags = logement.tags
-    
-
-    
-
-    
+       
 
     return (
         <div className="kasa-tags">
