@@ -10,7 +10,7 @@ function Tags () {
     
     let logement = Element.find(Element => Element.id === id_logement.id);
 
-    const length = logement.tags.length
+    
    
 
     const tags = logement.tags

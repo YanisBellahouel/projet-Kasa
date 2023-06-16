@@ -7,9 +7,9 @@ function Nav() {
     return (
         <nav className='kasa-nav'>
             <ul className='nav-list'>
-                <NavLink className="header-link" activeClassName="active-link" to={'/'}>
+                <NavLink className="header-link"  to={'/'}>
                     <li>{Acceuil}</li></NavLink>
-                <NavLink className="header-link" activeClassName="active-link" to={'/About'}>
+                <NavLink className="header-link"  to={'/About'}>
                     <li>{About}</li></NavLink>
             </ul>
            

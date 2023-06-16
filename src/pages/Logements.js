@@ -7,10 +7,16 @@ import { useParams } from "react-router-dom";
 import InfoLogements from "../Component/infoLogements/InfoLogements";
 
 
+
 function Logement() {
   const id_logement = useParams();
     
     let logement = Element.find(Element => Element.id === id_logement.id);
+
+    if (logement === undefined) { 
+        return window.location.replace('/*');
+      
+    }
    
 
     const equipements = logement.equipments
