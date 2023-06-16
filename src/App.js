@@ -8,14 +8,21 @@ import Logement from './pages/Logements'
 
 
 
+
+
 function App() {
+    
+    
+
+     
+       
     return(
          <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='*' element={<NoPage />} />
                 <Route path='/About' element={<About />} />
-                <Route path='/Logement/:id' element={<Logement/>}  />
+                <Route path='/Logement/:id' element= { <Logement/> }  />
+                <Route path='/*' element={<NoPage />} />
             </Routes>
          </BrowserRouter>
     )
